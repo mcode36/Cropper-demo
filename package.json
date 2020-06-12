@@ -1,0 +1,28 @@
+{
+  "name": "croppie_demo_app",
+  "version": "0.0.1",
+  "description": "Croppie.js Sample Codes",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cropperjs": "^1.5.7",
+    "express": "^4.17.1",
+    "nodemon": "2.0.4"
+  },
+  "engines": {
+    "node": "12.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcode36/Croppie-demo.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "cropperjs"
+  ],
+  "license": "MIT"
+}
