@@ -245,23 +245,39 @@ window.onload = function () {
 
     switch (e.keyCode) {
       case 37:
+	    // pan left
         e.preventDefault();
         cropper.move(-1, 0);
         break;
 
       case 38:
+	    // pan up
         e.preventDefault();
         cropper.move(0, -1);
         break;
 
       case 39:
+	    // pan right
         e.preventDefault();
         cropper.move(1, 0);
         break;
 
       case 40:
+	    // pan down
         e.preventDefault();
         cropper.move(0, 1);
+        break;
+		
+	  case 187:
+	    // zoom in
+        e.preventDefault();
+        cropper.zoom(0.1);
+        break;
+		
+	  case 189:
+	    // zoom out
+        e.preventDefault();
+        cropper.zoom(-0.1);
         break;
     }
   };
